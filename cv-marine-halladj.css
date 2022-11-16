@@ -1,0 +1,37 @@
+* {
+    font-family: georgia, Arial, serif;
+    color: #DBE2E9 ;
+}
+
+body {
+    background-image: url("bgnb.jpg")  ;
+    background-repeat: no-repeat;
+}
+
+.titre {
+    border-radius: 5px  ;
+    border: solid grey;
+}
+
+.propos {
+    border-radius: 20 px;
+    border :solid #505759
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main {
+    background-color: grey ;
+    border-radius: 20px;
+}
+#footer {
+    position:fixed;
+    bottom:0px;
+    left: 0px;
+    }
+
+
